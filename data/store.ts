@@ -4,7 +4,7 @@
       {
           id: 'demo',
           name: 'Usuario Demo',
-          email: 'demo@campus-oci.com',
+          email: 'demo@campus.com',
           role: 'Visitante',
           isActive: true,
           password: 'demo1234'

@@ -210,7 +210,7 @@ const LoginView: React.FC<{ onLoginSuccess: (u: User) => void }> = ({ onLoginSuc
                                 value={email} 
                                 onChange={e => setEmail(e.target.value)} 
                                 className="w-full pl-12 pr-4 py-4 rounded-2xl bg-slate-50 border border-slate-200 focus:bg-white focus:border-brand-500 focus:ring-4 focus:ring-brand-500/5 outline-none transition-all text-slate-900 font-medium" 
-                                placeholder="demo@campus-oci.com"
+                                placeholder="demo@campus.com"
                             />
                         </div>
                     </div>
@@ -321,7 +321,7 @@ const DashboardView: React.FC<{ progress: ProgressMap, onChange: (id: ModuleId) 
                     <div className="grid gap-4">
                       <div className="flex gap-4">
                         <span className="w-6 h-6 shrink-0 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold text-[10px]">1</span>
-                        <p><strong>Acceso:</strong> Usa el correo y la contraseña de demostración (demo@campus-oci.com / demo1234).</p>
+                        <p><strong>Acceso:</strong> Usa el correo y la contraseña de demostración (demo@campus.com / demo1234).</p>
                       </div>
                       <div className="flex gap-4">
                         <span className="w-6 h-6 shrink-0 bg-slate-900 text-white rounded-full flex items-center justify-center font-bold text-[10px]">2</span>
